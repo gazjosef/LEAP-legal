@@ -72,5 +72,102 @@ a:not([class]) {
     scroll-behavior: auto !important;
   }
 }
+.bg-clr-primary-100 {
+  background-color: #0a49af;
+}
+
+.bg-clr-white-100 {
+  background-color: #f6f7f8;
+}
+
+.u-center-text {
+  text-align: center !important;
+}
+
+.u-fs-300 {
+  font-size: 1.3rem;
+}
+
+.u-fs-400 {
+  font-size: 1.4rem;
+}
+
+.u-fs-500 {
+  font-size: 1.5rem;
+}
+
+.u-fs-600 {
+  font-size: 1.6rem;
+}
+
+.u-fs-700 {
+  font-size: 3rem;
+}
+
+.u-fs-800 {
+  font-size: 3.5rem;
+}
+
+.u-fs-primary-heading {
+  font-size: 3.5rem;
+}
+
+.u-fs-secondary-heading {
+  font-size: 3rem;
+}
+
+.u-fw-bold {
+  font-weight: 700;
+}
+
+.u-fw-semi-bold {
+  font-weight: 500;
+}
+
+.u-fw-regular {
+  font-weight: 400;
+}
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem !important;
+}
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem !important;
+}
+@media (max-width: 56.25em) {
+  .u-margin-bottom-medium {
+    margin-bottom: 3rem !important;
+  }
+}
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem !important;
+}
+@media (max-width: 56.25em) {
+  .u-margin-bottom-big {
+    margin-bottom: 5rem !important;
+  }
+}
+
+.u-margin-top-medium {
+  margin-top: 6rem !important;
+}
+
+.u-margin-top-big {
+  margin-top: 8rem !important;
+}
+
+.u-margin-top-huge {
+  margin-top: 10rem !important;
+}
+
+.u-text-color-white {
+  color: #ffffff;
+}
+
+.u-text-color-black {
+  color: #000;
+}
 
 /*# sourceMappingURL=style.css.map */
