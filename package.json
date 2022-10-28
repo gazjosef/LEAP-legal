@@ -1,0 +1,22 @@
+{
+  "name": "leap-legal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gazjosef/LEAP-legal.git"
+  },
+  "author": "Gareth Hind",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gazjosef/LEAP-legal/issues"
+  },
+  "homepage": "https://github.com/gazjosef/LEAP-legal#readme",
+  "devDependencies": {
+    "sass": "^1.55.0"
+  }
+}
