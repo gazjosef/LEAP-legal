@@ -4,3 +4,40 @@
 .section-signing {
   padding: 4rem;
 }
+
+.section-hero {
+  height: 100vh;
+
+  .hero {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    & > * {
+      display: grid;
+      place-items: center;
+    }
+
+    &__text {
+      grid-column: 1 / span 1;
+      grid-row: 1 / span 1;
+    }
+
+    &__img {
+      grid-column: 2 / span 1;
+      grid-row: 1 / span 1;
+    }
+  }
+}
+
+.section-features {
+  &__boxes {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 16rem;
+  }
+}
+
+.section-sharing {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}

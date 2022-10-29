@@ -1,0 +1,9 @@
+.header {
+  width: 100%;
+  display: grid;
+  place-content: center;
+
+  &__logo {
+    width: 20%;
+  }
+}

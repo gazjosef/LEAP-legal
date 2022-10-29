@@ -19,61 +19,94 @@
   <body>
     <main>
       <section class="section-hero | u-bg-gradient">
-        <!-- HEADER -->
         <header class="header">
-          <img
-            src="assets/logos/LawConnect-logo-reverse-RGB.svg"
-            alt="Law Connect"
-          />
-          <nav class="navbar"></nav>
+          <nav class="navigation | u-text-white">
+            <img
+              src="assets/logos/LawConnect-logo-reverse-RGB.svg"
+              class="header__logo"
+              alt="Law Connect"
+            />
+            <ul>
+              <li>For People</li>
+              <li>For Businesses</li>
+              <li>Contact</li>
+            </ul>
+            <div>
+              <a href="#">Login</a>
+              <button class="cta | u-center-text">Create Free Account</button>
+            </div>
+          </nav>
         </header>
-        <img src="assets/images/lc-hero-mobile@2x.png" alt="hero image" />
-        <h1 class="heading-primary-100 | u-center-text u-text-white">
-          The place to work with your lawyer
-        </h1>
-        <p class="paragraph | u-center-text u-text-white">
-          Your lawyer uses LawConnect to share information with you about your
-          legal case in a private, convenient and secure way.
-        </p>
-        <button class="cta | u-center-text">Create Free Account</button>
+
+        <div class="hero">
+          <img
+            class="hero__img"
+            src="assets/images/lc-hero-mobile@2x.png"
+            alt="hero image"
+          />
+          <div class="hero__text">
+            <h1 class="heading-primary-100 | u-center-text u-text-white">
+              The place to work with your lawyer
+            </h1>
+            <p class="paragraph | u-center-text u-text-white">
+              Your lawyer uses LawConnect to share information with you about
+              your legal case in a private, convenient and secure way.
+            </p>
+            <button class="cta | u-center-text">Create Free Account</button>
+          </div>
+        </div>
       </section>
+
       <section class="section-features">
         <h1 class="heading-primary-200 | u-center-text u-text-primary-100">
           One Solution Designed to Make Your Firm More Money
         </h1>
-        <div class="features">
-          <div class="feature">
+        <div class="section-features__boxes">
+          <div class="feature-box">
             <img
               src="assets/images/lc-greater-collab@2x.jpg"
               alt="Greater Collaboration"
             />
-            <h2 class="heading-secondary">Greater Collaboration</h2>
-            <p class="paragraph">
-              Collaborate on documents with clients, lawyers and other parties
-              with LawConnect’s Comment and Reply.
-            </p>
+            <div class="feature-box__text">
+              <h2 class="heading-secondary-100 | u-text-primary-100">
+                Greater Collaboration
+              </h2>
+              <p class="paragraph">
+                Collaborate on documents with clients, lawyers and other parties
+                with LawConnect’s Comment and Reply.
+              </p>
+            </div>
           </div>
-          <div class="feature">
+          <div class="feature-box">
             <img
               src="assets/images/lc-work-remote@2x.jpg"
               alt="Work Remotely"
             />
-            <h2 class="heading-secondary">Work remotely</h2>
-            <p class="paragraph">
-              You can sign in to LawConnect and view, collaborate and share your
-              documents from anywhere.
-            </p>
+            <div class="feature-box__text">
+              <h2 class="heading-secondary-100 | u-text-primary-100">
+                Work remotely
+              </h2>
+              <p class="paragraph">
+                You can sign in to LawConnect and view, collaborate and share
+                your documents from anywhere.
+              </p>
+            </div>
           </div>
-          <div class="feature">
+          <div class="feature-box">
             <img src="assets/images/lc-safe-docs@2x.jpg" alt="Safe Documents" />
-            <h2 class="heading-secondary">Safe Documents</h2>
-            <p class="paragraph">
-              LawConnect stores its data on servers provided by Amazon Web
-              Services and is safer than email.
-            </p>
+            <div class="feature-box__text">
+              <h2 class="heading-secondary-100 | u-text-primary-100">
+                Safe Documents
+              </h2>
+              <p class="paragraph">
+                LawConnect stores its data on servers provided by Amazon Web
+                Services and is safer than email.
+              </p>
+            </div>
           </div>
         </div>
       </section>
+
       <section class="section-sharing | u-bg-white-100">
         <img src="assets/images/lc-share-docs@2x.png" alt="Sharing Documents" />
         <h1 class="heading-primary">Sharing Documents</h1>
@@ -85,6 +118,7 @@
           in your notifications tab that a document has been shared.
         </p>
       </section>
+
       <section class="section-signing">
         <img
           src="assets/images/lc-sign-docs-mobile@2x.png"
