@@ -9,8 +9,11 @@
 @import "components/cta";
 
 @import "layout/footer";
-@import "layout/navbar";
+@import "layout/header";
+@import "layout/navigation";
 
+@import "section/section-hero";
 @import "section/section-features";
 @import "section/section-sharing";
 @import "section/section-signing";
+@import "section/sections";
