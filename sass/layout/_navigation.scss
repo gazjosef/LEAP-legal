@@ -1,20 +1,33 @@
 .navigation {
-  width: 120rem;
+  &__icon {
+    position: relative;
 
-  display: flex;
-  justify-content: space-between;
-
-  font-size: $fs-600;
-
-  ul {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-
-    li {
-      margin-left: 0.5rem;
-      margin-right: 0.5rem;
-      list-style: none;
+    &,
+    &::before,
+    &::after {
+      width: 3rem;
+      height: 2px;
+      background-color: $clr-white;
+      display: inline-block;
     }
+
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+    }
+
+    &::before {
+      top: -0.8rem;
+    }
+
+    &::after {
+      top: 0.8rem;
+    }
+  }
+
+  @include respond(desktop) {
+    display: none;
   }
 }

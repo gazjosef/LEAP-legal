@@ -1,5 +1,9 @@
 //* BACKGROUNDS
 
+.u-bg-white {
+  background-color: $clr-white;
+}
+
 .u-bg-white-100 {
   background-color: $clr-white-100;
 }
@@ -9,7 +13,8 @@
 }
 
 .u-bg-gradient {
-  background-image: linear-gradient($clr-primary-100, $clr-primary-200);
+  background-image: linear-gradient($clr-primary-200, $clr-primary-100);
+  z-index: -999;
 }
 
 //* CENTER TEXT
@@ -83,7 +88,7 @@
 //* MARGIN
 
 .u-margin-bottom-small {
-  margin-bottom: 1.5rem !important;
+  margin-bottom: 1rem !important;
 }
 
 .u-margin-bottom-medium {

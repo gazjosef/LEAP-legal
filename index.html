@@ -18,23 +18,33 @@
   </head>
   <body>
     <main>
-      <section class="section-hero | u-bg-gradient">
-        <header class="header">
-          <nav class="navigation | u-text-white">
-            <img
-              class="header__logo"
-              src="assets/logos/LawConnect-logo-reverse-RGB.svg"
-              alt="Law Connect"
-            />
+      <section class="section section-hero | u-bg-gradient">
+        <header class="header | u-text-white">
+          <img
+            class="header__logo"
+            src="assets/logos/LawConnect-logo-reverse-RGB.svg"
+            alt="Law Connect"
+          />
+          <div class="header__links">
             <ul>
               <li>For People</li>
               <li>For Businesses</li>
               <li>Contact</li>
             </ul>
-            <div class="header__login">
-              <a class="u-text-white" href="#">Login</a>
-              <button class="cta | u-center-text">Create Free Account</button>
-            </div>
+          </div>
+
+          <div class="header__login">
+            <a class="u-text-white" href="#">Login</a>
+            <button class="button | u-center-text">
+              <a href="#">
+                <span class="prevText"> Create Fre Account </span>
+                <span class="newText"> Create Free Account </span>
+              </a>
+            </button>
+          </div>
+
+          <nav class="navigation">
+            <div class="navigation__icon"></div>
           </nav>
         </header>
 
@@ -52,20 +62,24 @@
               />
             </picture>
             <div class="hero__text">
-              <h1 class="heading-primary-100 | u-center-text u-text-white">
+              <h1
+                class="heading-primary-100 | u-margin-bottom-small u-text-white"
+              >
                 The place to work with your lawyer
               </h1>
-              <p class="paragraph | u-center-text u-text-white">
+              <p class="paragraph-100 | u-text-white">
                 Your lawyer uses LawConnect to share information with you about
                 your legal case in a private, convenient and secure way.
               </p>
-              <button class="cta | u-center-text">Create Free Account</button>
+              <button class="button">
+                <a href="#">Create Free Account</a>
+              </button>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="section-features">
+      <section class="section section-features | u-bg-white">
         <div class="u-container">
           <h1
             class="heading-primary-200 | u-center-text u-margin-bottom-medium u-text-primary-100"
@@ -132,53 +146,59 @@
         </div>
       </section>
 
-      <section class="section-sharing | u-bg-white-100 u-container">
-        <img
-          class="section-sharing__img"
-          src="assets/images/lc-share-docs@2x.png"
-          alt="Sharing Documents"
-        />
+      <section class="section | u-bg-white-100">
+        <div class="section-sharing | u-container">
+          <img
+            class="section-sharing__img"
+            src="assets/images/lc-share-docs@2x.png"
+            alt="Sharing Documents"
+          />
 
-        <div class="section-sharing__text">
-          <h1
-            class="heading-primary-300 | u-margin-bottom-small u-text-primary-100"
-          >
-            Sharing Documents
-          </h1>
-          <p class="paragraph">
-            Your lawyer will share documents related to your case with you, via
-            LawConnect. Each time a document is shared by your lawyer, you will
-            receive an email notification so you can access the document.
-          </p>
-          <p class="paragraph">
-            If you already have a LawConnect account, you can login and an alert
-            will be in your notifications tab that a document has been shared.
-          </p>
+          <div class="section-sharing__text">
+            <h1
+              class="heading-primary-300 | u-margin-bottom-small u-text-primary-100"
+            >
+              Sharing Documents
+            </h1>
+            <p class="paragraph">
+              Your lawyer will share documents related to your case with you,
+              via LawConnect. Each time a document is shared by your lawyer, you
+              will receive an email notification so you can access the document.
+            </p>
+            <p class="paragraph">
+              If you already have a LawConnect account, you can login and an
+              alert will be in your notifications tab that a document has been
+              shared.
+            </p>
+          </div>
         </div>
       </section>
 
-      <section class="section-signing">
-        <picture class="section-signing__img">
-          <source
-            media="(min-width:350px)"
-            srcset="assets/images/lc-sign-docs-desktop@2x.png"
-          />
-          <img
-            src="assets/images/lc-sign-docs-mobile@2x.png"
-            alt="Signing Documents Electronically"
-            style="width: auto"
-          />
-        </picture>
-        <div class="section-signing__text">
-          <h1
-            class="heading-primary-300 | u-margin-bottom-small u-text-primary-100"
-          >
-            Signing Documents Electronically
-          </h1>
-          <p class="paragraph">
-            LawConnect integrates with DocuSign to provide our users with a
-            quick, easy and secure way to sign important legal documents online.
-          </p>
+      <section class="section">
+        <div class="section-signing | u-container">
+          <picture class="section-signing__img">
+            <source
+              media="(min-width:350px)"
+              srcset="assets/images/lc-sign-docs-desktop@2x.png"
+            />
+            <img
+              src="assets/images/lc-sign-docs-mobile@2x.png"
+              alt="Signing Documents Electronically"
+              style="width: auto"
+            />
+          </picture>
+          <div class="section-signing__text">
+            <h1
+              class="heading-primary-300 | u-margin-bottom-small u-text-primary-100"
+            >
+              Signing Documents Electronically
+            </h1>
+            <p class="paragraph">
+              LawConnect integrates with DocuSign to provide our users with a
+              quick, easy and secure way to sign important legal documents
+              online.
+            </p>
+          </div>
         </div>
       </section>
     </main>

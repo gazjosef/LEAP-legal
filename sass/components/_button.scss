@@ -1,0 +1,36 @@
+.button {
+  //   cursor: pointer;
+  background-color: $clr-primary-300;
+  border-radius: 6px;
+  border: none;
+  height: 4rem;
+  width: 100%;
+  z-index: 10;
+
+  @include respond(desktop) {
+    width: 18rem;
+  }
+
+  .newText {
+    display: none;
+  }
+
+  &:hover {
+    background-color: $clr-primary-100;
+    transform: scale(0.95, 0.9);
+
+    .prevText {
+      display: none;
+    }
+
+    .newText {
+      display: block;
+    }
+  }
+
+  a {
+    font-size: $fs-button;
+    font-weight: $fw-bold;
+    color: $clr-white;
+  }
+}

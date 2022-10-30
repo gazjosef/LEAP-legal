@@ -1,3 +1,7 @@
 .footer {
   height: 4.7rem;
+
+  @include respond(desktop) {
+    height: 14rem;
+  }
 }
