@@ -1,5 +1,5 @@
 .navigation {
-  width: 100rem;
+  width: 120rem;
 
   display: flex;
   justify-content: space-between;
@@ -12,6 +12,8 @@
     flex-direction: row;
 
     li {
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
       list-style: none;
     }
   }

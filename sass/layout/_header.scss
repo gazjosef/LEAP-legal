@@ -3,7 +3,17 @@
   display: grid;
   place-content: center;
 
+  position: absolute;
+  top: 2rem;
+
   &__logo {
     width: 20%;
+  }
+
+  &__login {
+    & > * {
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+    }
   }
 }

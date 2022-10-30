@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="shortcut icon" href="" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
-    <link href="http://fonts.cdnfonts.com/css/arial-mt" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css" />
 
     <title>Law Connect</title>
@@ -22,8 +22,8 @@
         <header class="header">
           <nav class="navigation | u-text-white">
             <img
-              src="assets/logos/LawConnect-logo-reverse-RGB.svg"
               class="header__logo"
+              src="assets/logos/LawConnect-logo-reverse-RGB.svg"
               alt="Law Connect"
             />
             <ul>
@@ -31,106 +31,155 @@
               <li>For Businesses</li>
               <li>Contact</li>
             </ul>
-            <div>
-              <a href="#">Login</a>
+            <div class="header__login">
+              <a class="u-text-white" href="#">Login</a>
               <button class="cta | u-center-text">Create Free Account</button>
             </div>
           </nav>
         </header>
 
-        <div class="hero">
-          <img
-            class="hero__img"
-            src="assets/images/lc-hero-mobile@2x.png"
-            alt="hero image"
-          />
-          <div class="hero__text">
-            <h1 class="heading-primary-100 | u-center-text u-text-white">
-              The place to work with your lawyer
-            </h1>
-            <p class="paragraph | u-center-text u-text-white">
-              Your lawyer uses LawConnect to share information with you about
-              your legal case in a private, convenient and secure way.
-            </p>
-            <button class="cta | u-center-text">Create Free Account</button>
+        <div class="u-container">
+          <div class="hero">
+            <picture class="hero__img">
+              <source
+                media="(min-width:350px)"
+                srcset="assets/images/lc-hero-desktop@2x.png"
+              />
+              <img
+                src="assets/images/lc-hero-mobile@2x.png"
+                alt="Signing Documents Electronically"
+                style="width: auto"
+              />
+            </picture>
+            <div class="hero__text">
+              <h1 class="heading-primary-100 | u-center-text u-text-white">
+                The place to work with your lawyer
+              </h1>
+              <p class="paragraph | u-center-text u-text-white">
+                Your lawyer uses LawConnect to share information with you about
+                your legal case in a private, convenient and secure way.
+              </p>
+              <button class="cta | u-center-text">Create Free Account</button>
+            </div>
           </div>
         </div>
       </section>
 
       <section class="section-features">
-        <h1 class="heading-primary-200 | u-center-text u-text-primary-100">
-          One Solution Designed to Make Your Firm More Money
-        </h1>
-        <div class="section-features__boxes">
-          <div class="feature-box">
-            <img
-              src="assets/images/lc-greater-collab@2x.jpg"
-              alt="Greater Collaboration"
-            />
-            <div class="feature-box__text">
-              <h2 class="heading-secondary-100 | u-text-primary-100">
-                Greater Collaboration
-              </h2>
-              <p class="paragraph">
-                Collaborate on documents with clients, lawyers and other parties
-                with LawConnect’s Comment and Reply.
-              </p>
+        <div class="u-container">
+          <h1
+            class="heading-primary-200 | u-center-text u-margin-bottom-medium u-text-primary-100"
+          >
+            One Solution Designed to Make Your Firm More Money
+          </h1>
+
+          <div class="section-features__boxes">
+            <div class="feature-box box-1">
+              <img
+                class="feature-box__img"
+                src="assets/images/lc-greater-collab@2x.jpg"
+                alt="Greater Collaboration"
+              />
+              <div class="feature-box__text">
+                <h2
+                  class="heading-secondary-100 | u-margin-bottom-small u-text-primary-200"
+                >
+                  Greater Collaboration
+                </h2>
+                <p class="paragraph">
+                  Collaborate on documents with clients, lawyers and other
+                  parties with LawConnect’s Comment and Reply.
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="feature-box">
-            <img
-              src="assets/images/lc-work-remote@2x.jpg"
-              alt="Work Remotely"
-            />
-            <div class="feature-box__text">
-              <h2 class="heading-secondary-100 | u-text-primary-100">
-                Work remotely
-              </h2>
-              <p class="paragraph">
-                You can sign in to LawConnect and view, collaborate and share
-                your documents from anywhere.
-              </p>
+            <div class="feature-box box-2">
+              <img
+                class="feature-box__img"
+                src="assets/images/lc-work-remote@2x.jpg"
+                alt="Work Remotely"
+              />
+              <div class="feature-box__text">
+                <h2
+                  class="heading-secondary-100 | u-margin-bottom-small u-text-primary-200"
+                >
+                  Work remotely
+                </h2>
+                <p class="paragraph">
+                  You can sign in to LawConnect and view, collaborate and share
+                  your documents from anywhere.
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="feature-box">
-            <img src="assets/images/lc-safe-docs@2x.jpg" alt="Safe Documents" />
-            <div class="feature-box__text">
-              <h2 class="heading-secondary-100 | u-text-primary-100">
-                Safe Documents
-              </h2>
-              <p class="paragraph">
-                LawConnect stores its data on servers provided by Amazon Web
-                Services and is safer than email.
-              </p>
+            <div class="feature-box box-3">
+              <img
+                class="feature-box__img"
+                src="assets/images/lc-safe-docs@2x.jpg"
+                alt="Safe Documents"
+              />
+              <div class="feature-box__text">
+                <h2
+                  class="heading-secondary-100 | u-margin-bottom-small u-text-primary-200"
+                >
+                  Safe Documents
+                </h2>
+                <p class="paragraph">
+                  LawConnect stores its data on servers provided by Amazon Web
+                  Services and is safer than email.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="section-sharing | u-bg-white-100">
-        <img src="assets/images/lc-share-docs@2x.png" alt="Sharing Documents" />
-        <h1 class="heading-primary">Sharing Documents</h1>
-        <p class="paragraph">
-          Your lawyer will share documents related to your case with you, via
-          LawConnect. Each time a document is shared by your lawyer, you will
-          receive an email notification so you can access the document. If you
-          already have a LawConnect account, you can login and an alert will be
-          in your notifications tab that a document has been shared.
-        </p>
+      <section class="section-sharing | u-bg-white-100 u-container">
+        <img
+          class="section-sharing__img"
+          src="assets/images/lc-share-docs@2x.png"
+          alt="Sharing Documents"
+        />
+
+        <div class="section-sharing__text">
+          <h1
+            class="heading-primary-300 | u-margin-bottom-small u-text-primary-100"
+          >
+            Sharing Documents
+          </h1>
+          <p class="paragraph">
+            Your lawyer will share documents related to your case with you, via
+            LawConnect. Each time a document is shared by your lawyer, you will
+            receive an email notification so you can access the document.
+          </p>
+          <p class="paragraph">
+            If you already have a LawConnect account, you can login and an alert
+            will be in your notifications tab that a document has been shared.
+          </p>
+        </div>
       </section>
 
       <section class="section-signing">
-        <img
-          src="assets/images/lc-sign-docs-mobile@2x.png"
-          alt="Signing Documents Electronically"
-        />
-        <h1 class="heading-primary | u-text-primary-100">
-          Signing Documents Electronically
-        </h1>
-        <p class="paragraph">
-          LawConnect integrates with DocuSign to provide our users with a quick,
-          easy and secure way to sign important legal documents online.
-        </p>
+        <picture class="section-signing__img">
+          <source
+            media="(min-width:350px)"
+            srcset="assets/images/lc-sign-docs-desktop@2x.png"
+          />
+          <img
+            src="assets/images/lc-sign-docs-mobile@2x.png"
+            alt="Signing Documents Electronically"
+            style="width: auto"
+          />
+        </picture>
+        <div class="section-signing__text">
+          <h1
+            class="heading-primary-300 | u-margin-bottom-small u-text-primary-100"
+          >
+            Signing Documents Electronically
+          </h1>
+          <p class="paragraph">
+            LawConnect integrates with DocuSign to provide our users with a
+            quick, easy and secure way to sign important legal documents online.
+          </p>
+        </div>
       </section>
     </main>
     <footer class="footer | u-bg-black"></footer>

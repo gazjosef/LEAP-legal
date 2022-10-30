@@ -18,6 +18,18 @@
   text-align: center !important;
 }
 
+.u-container {
+  margin: 0;
+  max-width: 100%;
+  width: 100%;
+  min-height: 50rem;
+
+  @include respond(desktop) {
+    max-width: 120rem;
+    margin: 8rem auto;
+  }
+}
+
 //* FONT SIZE
 
 .u-fs-300 {
@@ -114,4 +126,8 @@
 
 .u-text-primary-100 {
   color: $clr-primary-100;
+}
+
+.u-text-primary-200 {
+  color: $clr-primary-200;
 }
