@@ -72,7 +72,7 @@ body {
   text-align: center;
   line-height: 1.2;
 }
-@media (min-width: 21.875em) {
+@media (min-width: 22em) {
   .heading-primary-100 {
     font-size: 4.8rem;
     text-align: left;
@@ -83,7 +83,7 @@ body {
   font-weight: 400;
   font-size: 2.4rem;
 }
-@media (min-width: 21.875em) {
+@media (min-width: 22em) {
   .heading-primary-200 {
     font-size: 3.6rem;
   }
@@ -96,7 +96,7 @@ body {
   font-weight: 700;
   line-height: 1.4;
 }
-@media (min-width: 21.875em) {
+@media (min-width: 22em) {
   .heading-primary-300 {
     font-size: 3.6rem;
     font-weight: 500;
@@ -109,24 +109,31 @@ body {
 }
 
 .paragraph {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   max-width: 45ch;
+  color: rgba(26, 26, 26, 0.8);
 }
 .paragraph:not(:last-child) {
   margin-bottom: 3rem;
 }
+@media (min-width: 22em) {
+  .paragraph {
+    font-size: 1.6rem;
+  }
+}
 
 .paragraph-100 {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   max-width: 45ch;
   text-align: center;
 }
 .paragraph-100:not(:last-child) {
   margin-bottom: 3rem;
 }
-@media (min-width: 21.875em) {
+@media (min-width: 22em) {
   .paragraph-100 {
     text-align: left;
+    font-size: 1.6rem;
   }
 }
 
@@ -157,7 +164,7 @@ body {
   width: 100%;
   min-height: 50rem;
 }
-@media (min-width: 21.875em) {
+@media (min-width: 22em) {
   .u-container {
     max-width: 120rem;
     margin: 8rem auto;
@@ -266,7 +273,7 @@ body {
   width: 100%;
   z-index: 10;
 }
-@media (min-width: 21.875em) {
+@media (min-width: 22em) {
   .button {
     width: 18rem;
   }
@@ -296,7 +303,7 @@ body {
   height: 32rem;
   width: 100%;
 }
-@media (min-width: 21.875em) {
+@media (min-width: 22em) {
   .feature-box {
     width: 32.2rem;
   }
@@ -312,14 +319,13 @@ body {
   padding: 2.5rem 2.25rem;
 }
 .feature-box__text p {
-  color: rgba(26, 26, 26, 0.8);
   line-height: 1.4;
 }
 
 .footer {
   height: 4.7rem;
 }
-@media (min-width: 21.875em) {
+@media (min-width: 22em) {
   .footer {
     height: 14rem;
   }
@@ -338,7 +344,7 @@ body {
   font-size: 1.6rem;
   font-weight: 700;
 }
-@media (min-width: 21.875em) {
+@media (min-width: 22em) {
   .header {
     width: 120rem;
     padding: 0;
@@ -348,7 +354,7 @@ body {
 .header__logo {
   width: 40vw;
 }
-@media (min-width: 21.875em) {
+@media (min-width: 22em) {
   .header__logo {
     width: 20%;
   }
@@ -356,7 +362,7 @@ body {
 .header__links {
   display: none;
 }
-@media (min-width: 21.875em) {
+@media (min-width: 22em) {
   .header__links {
     display: block;
   }
@@ -374,7 +380,7 @@ body {
 .header__login {
   display: none;
 }
-@media (min-width: 21.875em) {
+@media (min-width: 22em) {
   .header__login {
     display: block;
   }
@@ -404,7 +410,7 @@ body {
 .navigation__icon::after {
   top: 0.8rem;
 }
-@media (min-width: 21.875em) {
+@media (min-width: 22em) {
   .navigation {
     display: none;
   }
@@ -414,7 +420,7 @@ body {
   padding: 1.5rem;
   min-width: 100%;
 }
-@media (min-width: 21.875em) {
+@media (min-width: 22em) {
   .section {
     padding: 4rem;
   }
@@ -423,11 +429,11 @@ body {
 .section-hero {
   height: 65rem;
   z-index: 0;
-  padding-top: 5rem;
+  padding-top: 8rem;
   overflow: hidden;
   position: relative;
 }
-@media (min-width: 21.875em) {
+@media (min-width: 22em) {
   .section-hero {
     padding: 10rem 4rem 4rem 4rem;
   }
@@ -441,7 +447,7 @@ body {
   display: grid;
   place-content: center;
 }
-@media (min-width: 21.875em) {
+@media (min-width: 22em) {
   .section-hero .hero {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -487,7 +493,7 @@ body {
   display: grid;
   grid-gap: 2rem;
 }
-@media (min-width: 21.875em) {
+@media (min-width: 22em) {
   .section-features__boxes {
     grid-template-columns: repeat(3, auto);
   }
@@ -513,7 +519,7 @@ body {
   display: grid;
   place-content: center;
 }
-@media (min-width: 21.875em) {
+@media (min-width: 22em) {
   .section-sharing {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -533,7 +539,7 @@ body {
   display: grid;
   grid-gap: 2rem;
 }
-@media (min-width: 21.875em) {
+@media (min-width: 22em) {
   .section-signing {
     grid-template-columns: repeat(2, 1fr);
   }

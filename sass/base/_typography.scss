@@ -47,16 +47,21 @@ body {
 }
 
 .paragraph {
-  font-size: $default-font-size;
+  font-size: $fs-400;
   max-width: $max-ch-width;
+  color: rgba($clr-black-900, 0.8);
 
   &:not(:last-child) {
     margin-bottom: 3rem;
   }
+
+  @include respond(desktop) {
+    font-size: $default-font-size;
+  }
 }
 
 .paragraph-100 {
-  font-size: $default-font-size;
+  font-size: $fs-400;
   max-width: $max-ch-width;
   text-align: center;
 
@@ -66,5 +71,6 @@ body {
 
   @include respond(desktop) {
     text-align: left;
+    font-size: $default-font-size;
   }
 }
